@@ -1,16 +1,16 @@
-/// Theseus module dependency IO wrapper
-///
-/// DepWriter is supposed to used by the compiler
-/// read_from_mem() is supposed to used by the kernel.
-///
-/// #Example
-/// ```
-/// let mem: &str;
-/// 
-/// // Make mem point to serialized dep data
-///
-/// let deps = depio::read_from_mem(mem);
-/// ```
+//! Theseus module dependency IO wrapper
+//!
+//! DepWriter is supposed to used by the compiler
+//! read_from_mem() is supposed to used by the kernel.
+//!
+//! #Example
+//! ```
+//! let mem: &str;
+//! 
+//! // Make mem point to serialized dep data
+//!
+//! let deps = depio::read_from_mem(mem);
+//! ```
 
 #![no_std]
 #![feature(alloc)]
