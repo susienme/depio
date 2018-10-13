@@ -1,0 +1,7 @@
+[package]
+name = "depio"
+version = "0.1.0"
+authors = ["Minhong Yun <mhyun@rice.edu>"]
+
+[dependencies]
+serde_json = "0.9.10" # cannot use newer version because of incompatibility
